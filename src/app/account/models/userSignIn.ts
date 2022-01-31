@@ -1,7 +1,10 @@
 export class userSignIn {
+  public email: string;
+  public password: string;
     constructor(
-      public email: string,
-      public password: string
-    ) {
-    }
+       email: string,
+       password: string
+    ) 
+    {this.email=email,
+    this.password=password }
   }
