@@ -1,0 +1,146 @@
+/* You can add global styles to this file, and also import other style files */
+@import "~bootstrap/dist/css/bootstrap.rtl.min.css";
+
+@font-face {
+    font-family: shabnam;
+    src: url('assets/fonts/shabnam-font-v2.4.0/Shabnam.eot');
+    src: url('assets/fonts/shabnam-font-v2.4.0/Shabnam.eot?#iefix') format('assets/fonts/shabnam-font-v2.4.0/Shabnam-opentype'), url('assets/fonts/shabnam-font-v2.4.0/Shabnam.woff') format('woff'), url('assets/fonts/shabnam-font-v2.4.0/Shabnam.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+  @font-face {
+    font-family: sahel;
+    src: url('assets/fonts/sahel-font-v1.0.0-alpha14/Sahel.eot');
+    src: url('assets/fonts/sahel-font-v1.0.0-alpha14/Sahel.eot?#iefix') format('assets/fonts/sahel-font-v1.0.0-alpha14/Sahel-opentype'), url('assets/fonts/sahel-font-v1.0.0-alpha14/Sahel.woff') format('woff'), url('assets/fonts/sahel-font-v1.0.0-alpha14/Sahel.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+  
+* {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+    outline: none;
+  }
+  
+  body {
+    background-color: #f5f5f5;
+    font-family: shabnam, sahel;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 13px;
+    color: #515151;
+  
+  }
+  
+  a {
+    color: #515151;
+    text-decoration: none;
+    cursor: pointer;
+  }
+  
+  a:hover {
+    color: #515151;
+  }
+  
+  .rounded-16 {
+    border-radius: 16px;
+  }
+  .rounded-10{
+    border-radius: 10px;
+  }
+  .rounded-8{
+    border-radius: 8px;
+  }
+  .describe {
+    text-align: right;
+    margin-top: 14px;
+    overflow: hidden;
+    max-width: 90%;
+    min-height: 50px;
+    font-size: 12px;
+    /* font-size: .857rem; */
+    line-height: 25px;
+    color: #535353;
+    align-self: flex-start;
+  }
+  
+  .pic-size-in-div {
+    width: 170px;
+    height: 170px;
+  }
+
+  .price-off span {
+    font-size: 16px;
+    font-weight: 700;
+    color: white;
+    background-color: #FB3449;
+    padding: 1px 14px;
+    border-radius: 20px;
+  }
+  
+  .price-off del {
+    color: #ACACAC;
+    font-size: 16px;
+    margin-left: 2px;
+  }
+  
+  .price-actual {
+    color: #000;
+    align-self: flex-end;
+    font-size: 16px;
+    font-weight: 700;
+  }
+  
+  .saled-percent {
+    color: #ACACAC;
+  }
+  
+  .time {
+    color: #726f6f;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  .time span {
+    margin-left: 2px;
+  }
+  .carousel-control span i {
+    padding: 25px 10px;
+    background-color: white;
+    position: absolute;
+    top: 25%;
+    color: #080808;
+    font-size: 30px;
+    // font-weight: 900;
+    z-index: 100;
+  }
+  
+  
+.carousel-control-prev span i {
+  -webkit-box-shadow: -1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  box-shadow: -1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 8px 0 0 8px;
+  right: 24%;
+}
+
+.carousel-control-next span i {
+  -webkit-box-shadow: 1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  box-shadow: 1.5px 0 4px 0 rgb(0 0 0 / 15%);
+  border-radius: 0 8px 8px 0;
+  left: 13%;
+}
+ 
+ .see-all-instance i {
+  color: #0FABC6;
+  font-size: 50px;
+}
+
+ .see-all-instance text {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 25px;
+  color: #515151;
+}

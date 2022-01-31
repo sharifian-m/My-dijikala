@@ -1,0 +1,33 @@
+<section  >
+    <div class="container  ">
+      <div class="row p-4">
+        <div class=" m-1 p-4 login-box">
+          <h1>ثبت نام</h1>
+          <form [formGroup]="signInForm" class="d-flex flex-column " (ngSubmit)="submitSignInForm() ">
+  
+            <span style="color: red;">*</span>
+              <input type="text" formControlName="Email" placeholder="ایمیل" />
+           
+    
+              <span style="color: red;">*</span>
+              <input type="password" formControlName="Password" placeholder="رمز ورود" />
+       
+             
+            <input type="submit" value=" ورود با حساب کاربری" />
+  
+          </form>
+          <div class="text-center pt-4 pb-2 connections">
+            <a href="https://wwww.facebook.com" target="_blank" class="px-2">
+              <img src="assets/images/social-media/facebook.svg" alt="">
+            </a>
+            <a href="https://www.google.com" target="_blank" class="px-2">
+              <img src="assets/images/social-media/google.svg" alt="">
+            </a>
+            <a href="https://www.github.com" target="_blank" class="px-2">
+              <img src="assets/images/social-media/github.svg" alt="">
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>

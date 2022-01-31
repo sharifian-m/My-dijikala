@@ -1,0 +1,156 @@
+
+
+/* ================================================================ */
+/*                      HEADER FOR MOBILE DEVICE                    */
+/* ================================================================ */
+.header {
+    padding: 15px 0;
+  }
+  
+  .header .humberger-menu {}
+  
+  .header .logo a img {
+    width: 93px;
+    height: 25px;
+  }
+  
+  .header .question {}
+  
+  .header .search-box {}
+  
+  .header .search-box form {
+    position: relative;
+  }
+  
+  .header .search-box form input {
+    width: 100%;
+    background-color: #F0F0F1;
+    border-radius: 8px;
+    padding: 10px 40px 10px 25px;
+    color: #030a16;
+    border: none;
+    line-height: 24px;
+  }
+  
+  .header .search-box form i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #a1a3a8;
+    font-size: 18px;
+  }
+  
+  .header .user-icon {
+    margin-left: 10px;
+  }
+  
+  .header .buy-basket-icon {}
+  
+
+  /* ================================================================ */
+  /*             HEADER FOR DEVICE LARGER THAN MOBILE                 */
+  /* ================================================================ */
+  
+  .header-lg {
+    padding: 15px 10px;
+  }
+  
+  .header-lg .logo a img {
+    width: 110px;
+    height: 30px;
+    margin-left: 20px;
+  }
+  
+  .header-lg .search-box form {
+    position: relative;
+  }
+  
+  .header-lg .search-box form input {
+    font-family: shabnam, sahel;
+    font-size: 13px;
+    width: 100%;
+    background-color: #F0F0F1;
+    border-radius: 8px;
+    padding: 10px 40px 10px 300px;
+    color: #030a16;
+    border: none;
+    line-height: 22px;
+  }
+  
+  .header-lg .search-box form i {
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    color: #a1a3a8;
+    font-size: 18px;
+  }
+  
+  .header-lg .login {
+    position: relative;
+  }
+  
+  .header-lg .login .login-btn {
+    position: relative;
+    background-color: transparent;
+    border-radius: 8px;
+    border: 1px solid #e0e0e2;
+    line-height: 0;
+    padding: 10px 12px;
+    margin-left: 40px;
+  }
+  
+  .header-lg .login .login-btn:after {
+    content: "";
+    width: 1px;
+    height: 25px;
+    background-color: #E0E0E2;
+    position: absolute;
+    top: 8px;
+    left: -20px;
+  }
+  
+  .header-lg .login .login-btn span {
+    font-family: shabnam, sahel;
+    font-size: 12px;
+    line-height: 0;
+    font-style: normal;
+    font-weight: normal;
+    color: #616161;
+  }
+  
+  .header-lg .login .login-btn img {
+    margin-left: 5px;
+  }
+  
+  .header-lg .login .buy-basket {}
+  
+  .header-lg .login .buy-basket img {}
+  
+  .header-lg .login .login-tooltip {
+    padding: 10px;
+    position: absolute;
+    color: #fff;
+    text-align: right;
+    font-weight: 200;
+    top: 100%;
+    left: 30%;
+    margin-top: 4px;
+    margin-left: -60px;
+    width: 150px;
+    border-radius: 10px;
+    white-space: normal;
+    background-color: #424750;
+    border: 1px solid #030a164d;
+    z-index: 1;
+  }
+  
+  .header-lg .login .login-tooltip ::before {
+    position: absolute;
+    left: 14%;
+    bottom: 100%;
+    content: " ";
+    margin-left: -5px;
+    border: 5px solid transparent;
+    border-bottom-color: #000;
+  }
+  

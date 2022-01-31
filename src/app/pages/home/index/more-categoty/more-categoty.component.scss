@@ -1,0 +1,35 @@
+
+.more-category {
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  }
+  
+  .more-category__title {
+    color: #656565;
+    font-size: 19px;
+    font-weight: 400;
+  }
+  
+  .more-category__icon-img {
+    width: 36px;
+    height: 36px;
+  }
+  
+  .more-category__icon-name {
+    font-size: 12px;
+    text-align: center;
+    /* max-width:70%; */
+  }
+  
+  .more-category__icon-number {
+    font-size: 12px;
+    color: #00BFD6;
+  }
+  
+  .more-category__icon-number:before {
+    content: "+";
+    display: inline-block;
+    line-height: 1.85;
+    margin-left: 3px;
+    padding-top: 2px;
+  }

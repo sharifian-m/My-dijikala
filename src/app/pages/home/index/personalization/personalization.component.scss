@@ -1,0 +1,44 @@
+
+.personalize{
+    height: 480px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  }
+.personalize-img {
+    width: 40px;
+    height: 50px;
+  }
+  
+  .personalize__img img {}
+  
+  .personalize__offers h3 {
+    color: #232933;
+    line-height: 34px;
+    font-size: 16px;
+  }
+  
+  .personalize__signup a {
+    font-size: 12px;
+    color: #81858b;
+  }
+  
+  .personalize__login-btn a {
+    background-color: #EF394E;
+    border: 1px solid #EF394E;
+    color: white;
+    font-size: 14px;
+    font-weight: 700;
+  
+  }
+  
+  .personalize__login-btn a img {
+    padding-left: 3px;
+  }
+  
+  .personalize__login-txt {
+    line-height: 30px;
+    max-width: 226px;
+    text-align: center;
+    font-size: 14px;
+    color: #62666d;
+  }

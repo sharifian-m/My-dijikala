@@ -1,0 +1,144 @@
+
+/* ================================================================ */
+/*                    MOBILE AMAZING offer SECTION                */
+/* ================================================================ */
+.mobile-amazing-offer {
+    height: 365px;
+    margin-top: 15px;
+    padding: 15px 0;
+    background-color: #EF394E;
+  }
+  
+  .mobile-amazing-offer .overflow-x {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .mobile-amazing-offer .logo a img {
+    padding-top: 10px;
+  }
+  
+  .mobile-amazing-offer .logo .see-all {
+    margin-top: 10px;
+    padding: 9px 16px;
+    border-radius: 4px;
+    color: #fff;
+    background: transparent;
+    line-height: 1.571;
+  }
+  
+  .mobile-amazing-offer .logo .see-all span {
+    font-family: shabnam, sahel;
+    font-weight: 600;
+    font-size: 14px;
+    letter-spacing: 1px;
+  }
+  
+  .mobile-amazing-offer .logo .see-all i {
+    padding-top: 6px;
+    display: inline-block;
+    margin-right: 5px;
+    font-size: 14px;
+    font-weight: 600
+  }
+  
+  .mobile-amazing-offer .amazing-item {
+    width: 207px;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .mobile-amazing-offer .amazing-item .thumbnail {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .mobile-amazing-offer .amazing-item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    color: #2a2a2a;
+    margin: 0;
+  }
+  
+  .mobile-amazing-offer .amazing-item .cash-gift {
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 22px;
+    font-style: normal;
+    color: #62666d;
+  }
+  
+  .mobile-amazing-offer .amazing-item .cash-gift img {}
+  
+  
+  .mobile-amazing-offer .amazing-item .sold-time .saled-percent {
+    color: #ACACAC;
+  }
+  
+  .mobile-amazing-offer .amazing-item .sold-time .time {
+    color: #726f6f;
+    font-size: 15px;
+    font-weight: 200;
+  }
+  
+  .mobile-amazing-offer .amazing-item .time {
+    margin-left: 2px;
+  }
+  
+  .mobile-amazing-offer .amazing-item .time span {}
+  
+  .mobile-amazing-offer .amazing-item .time i {}
+  
+  .originality img{
+    width:40px ;
+    height:40px ;
+      }
+      .originality p{
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 22px;
+      }
+/* ================================================================ */
+/*                     AMAZING OFFER SECTION LARGER_DEVICES             */
+/* ================================================================ */
+
+.amazing-offer {
+    background-color: #EF394E;
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    // padding: 15px 0;
+  }
+
+  .btn-outline-light {
+    width: 130px;
+    font-size: 14px;
+    font-weight: 500;
+    position: relative;
+  }
+  
+  .amazing-item {
+    border-radius: 10px;
+    width: 255px;
+    height: 444px;
+  }
+  
+  
+  .amazing-offer__logo__see-all button {
+    position: relative;
+    padding: 9px 16px;
+    font-size: 14px;
+    font-size: 1rem;
+    line-height: 1.571;
+    font-weight: 500;
+    border: 1px solid #fff;
+    color: #fff;
+    background-color: transparent;
+  }
+  
+ 
+  

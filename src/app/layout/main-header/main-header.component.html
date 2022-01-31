@@ -1,0 +1,114 @@
+<!-- =============================      HEADER FOR MOBILE DEVICE     ===============================================-->
+<header class="header d-lg-none bg-white">
+    <div class="container-fluid ">
+        <div class="d-flex flex-row justify-content-between align-items-center">
+            <!-- header-row-1 -->
+            <div class="humberger-menu">
+
+                <a> <img src="assets/images/humbergermenu.png" class="img-fluid" alt="site-logo"></a>
+            </div>
+
+            <div class="logo">
+                <a href=""> <img src="assets/images/dijikala-logo.svg" class="img-fluid"
+                        alt="site-logo"></a>
+            </div>
+
+            <div class="question">
+                <a href=""> <img src="assets/images/icons/question.png" class="img-fluid"
+                        alt="askQuestion-icon"></a>
+            </div>
+        </div>
+        <hr>
+    </div>
+
+    <!-- header-row-2 -->
+    <div class="container-fluid ">
+        <div class=" row d-flex flex-row  align-items-center">
+
+            <div class="col-9 search-box ">
+                <form action="" class="">
+                    <input type="text" placeholder="جستجو در دیجیکالا...">
+                    <i class="bi bi-search"></i>
+                </form>
+            </div>
+
+            <div class="col-3 d-flex flex-row justify-content-end">
+                <a href="#" class="user-icon"><img src="assets/images/user-icon.png" alt="user-icon"
+                        class="img-fluid"></a>
+                <!-- <i class="bi bi-person"></i> -->
+                <!-- <i class="bi bi-cart" ></i> -->
+                <a href="#" class="buy-basket-icon"><img src="assets/images/buy-basket.png" alt="buy-basket-icon"
+                        class="img-fluid"></a>
+            </div>
+        </div>
+        <hr>
+    </div>
+    <!-- header-row-3 -->
+    <div class="container-fluid ">
+        <div class=" row d-flex flex-row align-items-center">
+
+            <div class=" col-10 ">
+                <a href="#" class=""> <img src="assets/images/Locaion.png" class="img-fluid" alt="location-icon">
+                    <span>لطفا شهر و استان خود را انتخاب کنید </span> </a>
+            </div>
+
+            <div class=" col-2 text-end">
+                <a href="#"><i class="bi bi-chevron-left m-1" style=" color:rgb(73, 72, 72)"></i></a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- ==========================    HEADER FOR LARGER THAN MOBILE DEVICE    =============================================-->
+<header class="header-lg  bg-white fixed-top d-none d-lg-block">
+    <div class="container-fluid  ">
+        <div class="row">
+            <div class=" col-8 d-flex flex-row  align-items-center ">
+                <div class="logo">
+                    <a href=""> <img src="assets/images/dijikala-logo.svg" alt="site-logo"></a>
+                </div>
+                <div class="search-box">
+                    <form action="" class="">
+                        <input type="text" placeholder="جستجو در دیجیکالا..."> 
+                        <i class="bi bi-search"></i>
+                    </form>
+                </div>
+            </div>
+            <div class=" col-4 login d-flex flex-row  align-items-center justify-content-end">
+                <a routerLink="/account/sign-in" class="login-btn d-flex align-items-center justify-content-center align-self-center">
+                    <img src="assets/images/user-icon.png" loading="lazy"  alt=""> 
+                    <span>ورود به حساب کاربری</span>
+                </a>
+                <a routerLink="/account/sign-up" class="login-btn d-flex align-items-center justify-content-center align-self-center">
+                    <img src="assets/images/user-icon.png" loading="lazy"  alt=""> 
+                    <span>ایجاد حساب کاربری</span>
+                </a>
+           
+                <!-- <i class="bi bi-cart " ></i> -->
+                <a href="#" class="buy-basket"><img src="assets/images/buy-basket.png" loading="lazy"  alt=""> </a>
+                <a href="#" class="login-tooltip d-none">
+                    <span>
+                        برای تجربه بهتر، لطفا
+                        وارد حساب کاربری شوید
+                    </span> </a>
+            </div>
+        </div>
+    </div>
+</header>
+<!-- <button
+  [swal]="{ title: 'Save file as...', input: 'text', showDenyButton: true, denyButtonText: 'Don\'t save', showCancelButton: true }"
+  (confirm)="saveFile($event)"
+  (deny)="handleDenial()"
+  (dismiss)="handleDismiss($event)">
+
+  Save
+</button> -->
+<!-- <swal
+  #saveSwal
+  title="save?"
+  text="This cannot be undone"
+  icon="question"
+  [showCancelButton]="true"
+  [focusCancel]="true"
+ >
+</swal> -->
+<app-navbar  class=" d-none d-lg-block"></app-navbar>

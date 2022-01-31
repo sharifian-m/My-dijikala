@@ -1,0 +1,233 @@
+footer{
+    width: 100%;
+   
+  }
+  .footer-contaier{
+    width: 100%;
+    background-color: #ffffff; 
+  }
+  
+  footer ul{
+    padding: 0;
+  }
+  .back-to-top button{
+    border-radius: 10px;
+    padding: 4px 20px;
+    font-size: 14px;
+    font-weight: 700;
+  line-height: 30px;
+  color: #a1a3a8;
+  border: 1px solid #8f8d8d5b;
+  
+  }
+  .back-to-top button .bi-chevron-up{
+    font-size: 14px;
+    font-weight: 700;
+  color: #a1a3a8;
+  }
+  .contact-us{
+    max-width: 700px;
+    height: 40px;
+    min-width: 400px;
+  }
+  .contact-us pre{
+  position: relative;
+  font-size: 12px;
+  font-weight: 400px;
+  letter-spacing: 0.5px;
+  line-height: 26px;
+  color: #424750;
+  }
+  .vr {
+    display: inline-block;
+    align-self: center;
+    width: 1px;
+  }
+  .originality p{
+    font-size: 12px;
+      line-height: 21px;
+      color: #424750;
+   
+  }
+  .originality img{
+  width:60px ;
+  height: 40px;
+  margin-bottom: 10px;
+  
+  }
+  .footer-item p ,  .social p {
+    letter-spacing:0.5px;
+    font-size: 16px;
+  line-height: 32px;
+  font-weight: 700;
+  color: #424750;
+  font-style: normal;
+  
+  }
+  .footer-item ul {
+    padding:0;
+    list-style:none;
+    font-size:14px;
+    margin-bottom:0;
+  }
+  .footer-item a{
+    font-size: 14px;
+    line-height: 38px;
+    font-weight: 400;
+    color: #6e8dbd;
+    font-style: normal;
+    }
+    .footer-item ul a {
+    opacity:0.8;
+  }
+  
+  .footer-item ul a:hover {
+    opacity:1;
+  }
+  .social a{
+    font-size: 24px;
+    line-height: 0;
+    font-weight: 400;
+    color: #6e6f72;
+    font-style: normal;
+    opacity: 0.7;
+  }
+  .social a:hover{
+    opacity: 1;
+  }
+  .newest-auction{
+    margin-top: 40px;
+  }
+  .newest-auction input[type="text"]{
+    width: 340px;
+    height:50px ;
+    font-size: 15px;
+    line-height: 32px;
+    font-weight: 400;
+    color: #81858b;
+    font-style: normal;
+    background-color: #F0F0F1;
+    border-radius: 10px;
+    border: none;
+    padding-right: 15px;
+    margin-left: 2px;
+  }
+  
+  .newest-auction input[type="submit"]{
+    width: 60px;
+    height:50px ;
+    background-color:#e0e0e2;
+    color: #777474;
+    border: none;
+    border-radius: 8px;
+  }
+  
+  .download-app {
+  height: 76px;
+  background-color: #3C4B6D;
+  border-radius: 8px;
+  }
+  .download-app__logo a span{
+      font-size: 18px;
+    line-height: 38px;
+    font-weight: 500;
+    color: white;
+    font-style: normal;
+    margin-right: 10px;
+  }
+  
+  .download-apps a img  {
+  width: 150px;
+  height: 50px;
+  margin:0  5px; 
+  }
+  .download-apps a button{
+  width: 46px;
+  height: 46px;
+  margin:0  5px; 
+  border-radius: 8px;
+  border: 0;
+  outline: none;
+  }
+  .download-apps a button i{
+    font-size: 20px;
+  font-weight: 800;
+  color: #000000;
+  font-style: normal;
+  }
+  .download p{
+    margin-top:30px ;
+  }
+  .more-information{
+    margin-top: 30px;
+    margin-bottom: 1rem;
+  }
+  .mobile-download-app{
+// padding: 30px;
+// background-color: brown;
+  }
+  .mobile-download-app .more-information i {
+    color: #0e8add;
+    font-size: 12px;
+  }
+  .mobile-download-app .more-information span {
+    color: #0e8add;
+    font-size: 12px;
+  }
+  
+  .symbols a {
+    padding:10px;
+    margin: 5px;
+    border: 1px solid #dddddd;
+    border-radius: 8px;
+  }
+  .symbols a img{
+    width: 100px;
+    height:100px;
+  }
+  .about-diji__text-title{
+    font-size: 14px;
+    font-weight: 700;
+    color: #424750;
+    font-style: normal;
+  }
+  .about-diji__text{
+    font-size: 12px;
+    font-weight: 300;
+    color: #a2a5aa;
+    font-style: normal;
+  }
+  .about-diji__see-more , .about-diji__see-more i{
+    font-size: 12px;
+    font-weight: 600;
+    color: #a2a5aa;
+    font-style: normal;
+  
+  }
+  .copy-right{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #a2a5aa;
+    font-style: normal;
+    
+  }
+  
+  .barnds-apps__link{
+     display: flex;
+   justify-content: start;
+    align-items: center;  
+    flex-wrap: wrap;
+   padding: 20px;
+    width: 104px;
+    height: 104px;
+  
+  }
+
+  
+  .brands-apps  div {
+   
+  border: 1px solid rgb(209, 209, 209);
+  
+  }
+  

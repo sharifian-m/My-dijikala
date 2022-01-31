@@ -1,0 +1,133 @@
+
+
+/* ================================================================ */
+/*              BASE_VISITED                                        */
+/* ================================================================ */
+.swipper-in-mobile {
+    height: 365px;
+    margin-top: 15px;
+    padding: 15px 0;
+  }
+  
+  .swipper-in-mobile .section-header h3 {
+    color: #515151;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .swipper-in-mobile .section-header p {
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .swipper-in-mobile .swipper-items-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: auto;
+  }
+  
+  .swipper-in-mobile .swipper-items-container .border-shadow {
+    background-color: #ffffff;
+    border-radius: 10px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  
+  }
+  
+  .swipper-in-mobile .swipper-items-container .swipper-item {
+    /* border-radius: 10px; */
+    width: 207px;
+    height: 100%;
+    padding: 10px;
+  }
+  
+  .swipper-in-mobile .swipper-items-container .swipper-item img {
+    width: 100px;
+    height: 100px;
+  }
+  
+  .swipper-in-mobile .swipper-items-container .swipper-item p {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 22px;
+    font-style: normal;
+    color: #2a2a2a;
+    margin: 0;
+  }
+/* ================================================================ */
+/*           BASE_VISITED _LARGE_DEVICES                      */
+/* ================================================================ */
+.Travel-equipment, .momentary {
+    height: 480px;
+    -webkit-box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, .1);
+  }
+  
+  
+  .equip {
+    color: #515151;
+    font-weight: 500;
+    font-size: 18px;
+  }
+  
+  .equip-items {
+    /* border-radius: 10px; */
+    width: 235px;
+    height: 320px;
+  }
+  .your-equip-items{
+    width: 235px;
+    height: 350px;
+  }
+  .base-visit {
+    color: #515151;
+    font-weight: 400;
+    font-size: 12px;
+  }
+  
+  .equip-price-off del {
+    font-size: 14px;
+    font-weight: 200;
+    color: #ababab;
+  }
+  
+  .equip-price-off span {
+    font-size: 12px;
+    font-weight: 500;
+    color: white;
+    background-color: #FB3449;
+    padding: 1px 6px;
+    border-radius: 30px;
+  }
+  
+  .equip-price-actual {
+    font-size: 16px;
+    font-weight: 700;
+    color: #232933;
+  }
+  
+  .equip-font-toman {
+    font-size: 12px;
+    /* font-weight: 600; */
+    color: #232933;
+  }
+  
+  .offer-txt {
+    font-size: 14px;
+    font-weight: 400;
+  }
+  
+  .row-commodity {
+    padding: 10px;
+  
+  }
+  
+  .commodity:hover, .commodity a:hover {
+    border-radius: 10px;
+    -webkit-box-shadow: -1px 1px 9px 0px rgba(102, 102, 102, 0.54);
+    box-shadow: -1px 1px 9px 0px rgba(102, 102, 102, 0.54);
+  }
+  
+  

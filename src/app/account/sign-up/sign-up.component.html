@@ -1,0 +1,53 @@
+<section>
+  <div class="container  ">
+    <div class="row  flex-column flex-lg-row d-flex justify-content-center align-items-center p-4">
+      <div class="col-6 right  m-1 p-4 login-box">
+        <h1>ثبت نام</h1>
+        <form [formGroup]="signupForm" class="d-flex flex-column " (ngSubmit)="submitSignupForm() ">
+
+          <input type="text" formControlName="FirstName" placeholder="نام" />
+          <input type="text" formControlName="LastName" placeholder="نام خانوادگی" />
+          <input type="text" formControlName="Email" placeholder="ایمیل" />
+          <input type="password" formControlName="Password" placeholder="رمز ورود" />
+          <input type="password" formControlName="ConfirmPassword" placeholder="تکرار رمز ورود" />
+          <textarea formControlName="Address" placeholder="آدرس "></textarea>
+          <input type="submit" value="ثبت نام" />
+
+        </form>
+        <div class="text-center pt-4 pb-2 connections">
+          <a href="https://wwww.facebook.com" target="_blank" class="px-2">
+            <img src="assets/images/social-media/facebook.svg" alt="">
+          </a>
+          <a href="https://www.google.com" target="_blank" class="px-2">
+            <img src="assets/images/social-media/google.svg" alt="">
+          </a>
+          <a href="https://www.github.com" target="_blank" class="px-2">
+            <img src="assets/images/social-media/github.svg" alt="">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- <div id="login-box">
+    
+    <div class="right">
+        <h1>ثبت نام</h1>
+        
+        <input type="text" name="username" placeholder="نام" />
+        <input type="text" name="email" placeholder="ایمیل" />
+        <input type="password" name="password" placeholder="رمز ورود" />
+        <input type="password" name="password2" placeholder="تکرار رمز ورود" />
+        <input type="submit" name="signup_submit" value="ثبت نام" />
+      </div>
+    <div class="left">
+      <span class="loginwith">ورود  با<br />شبکه های اجتماعی</span>
+      
+      <button class="social-signin facebook">ورود با فیسبوک</button>
+      <button class="social-signin twitter">ورود با توییتر</button>
+      <button class="social-signin google">ورود با گوگل</button>
+    </div>
+   
+    <div class="or">OR</div>
+  </div> -->

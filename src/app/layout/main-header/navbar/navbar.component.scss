@@ -1,0 +1,61 @@
+
+/* ================================================================ */
+/*                        NAVIGATION BAR                            */
+/* ================================================================ */
+.nav-bar {
+    margin-top: 65px;
+  }
+  
+  .nav-bar .nav-items ul {
+    margin: 0;
+    padding: 0;
+    font-size: 12px;
+  }
+  
+  .nav-bar .nav-items ul li {
+    padding: 8px;
+    margin-left: 8px;
+    // transition: .1s ease-in-out;
+  }
+  
+  .nav-bar .nav-items ul li a {
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 30px;
+    color: #616161;
+  }
+  
+  .nav-bar .nav-items li:hover {
+    border-bottom: 2px solid #EF5661;
+  }
+  
+  .nav-bar .nav-items ul .super-market-li a {
+    border-right: 1px solid #e2dede;
+    padding: 3px 10px 3px 3px;
+  }
+  
+  .nav-bar .location {
+    padding: 12px;
+  }
+  
+  .nav-bar .location a {
+    margin-right: auto;
+    color: #616161;
+    font-size: 12px;
+  }
+  
+  .nav-bar .location a span {}
+  
+  .nav-bar .location a span img {}
+  
+  /* ================================================================ */
+  /*                       ARTICLE_GIF_BANNER                         */
+  /* ================================================================ */
+  
+  .gif-banner {
+    padding-top: 10px;
+  }
+  
+  .gif-banner a {}
+  
+  .gif-banner a img {}
