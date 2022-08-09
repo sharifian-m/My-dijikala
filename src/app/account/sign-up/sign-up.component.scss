@@ -7,25 +7,7 @@ justify-content: center;
 align-items: center;
 margin: 0 auto;
 }
-// #login-box {
-  // position: relative;
-  // margin: 5% auto;
-  // width: 600px;
-  // height: 500px;
-  // background: #FFF;
-  // border-radius: 2px;
-  // box-shadow: 0 2px 4px rgba(0, 0, 0, 0.4);
-// }
 
-// .right {
-  // position: absolute;
-  // top: 0;
-  // right: 0;
-//   box-sizing: border-box;
-//   padding: 40px;
-//   width: 300px;
-//   height: 400px;
-// }
 .login-box {
   background-color: #ffffff;
   border-radius: 2px;
@@ -160,6 +142,6 @@ button.social-signin.twitter {
   background: #55ACEE;
 }
 
-button.social-signin.google {
+button .social-signin .google {
   background: #DD4B39;
 }
